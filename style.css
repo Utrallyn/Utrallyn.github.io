@@ -23,7 +23,7 @@ header{
 	position:relative;
 }
 .ll{
-	color:rgba(135,100,70);
+
 	background-color:rgba(255,255,255,0.8);
 	width: 176px;
 	height:63px;
@@ -35,6 +35,10 @@ header{
 	top:21px;
 	left:20px;
 	font-family: 'Gorditas', cursive;
+}
+.ll a{
+	color:rgba(135,100,70);
+	text-decoration:none;
 }
 .hh{
 	text-align:center;
