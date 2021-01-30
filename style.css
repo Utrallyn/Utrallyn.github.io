@@ -24,7 +24,7 @@ header{
 	position:relative;
 }
 .ll{
-	position:absolute;
+  	position:absolute;
 	top:26px;
 	left:20px;
 	font-family: 'Gorditas', cursive;
@@ -137,45 +137,45 @@ header{
 /* RWD */
 @media(max-width:768px){
 	header{
-		width: 100%;
-		height: 115px;
-		background: rgb(205,170,140);
-		margin-bottom: 20px;
-		position: fixed;
-		border-radius: 0 0 20px 80px;
-		box-shadow: -11px 11px 17px rgba(10,40,75,0.3);
-		z-index: 1; 
+		height: 65px;
+ 
+	}
+	.ll{
+		position:absolute;
+	  	top:13px;
+	  	left:10px;
+	}
+	.ll a{
+
+		padding: 0 4px 5.5px 5.5px;
+
+		font-size:20px;
+		border:1.7px solid rgba(135,100,70);
+		border-radius:10px 8.5px 15.5px 17.5px;	
+
+	
 	}
 	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
