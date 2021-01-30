@@ -38,7 +38,6 @@ header{
 	border:3.5px solid rgba(135,100,70);
 	border-radius:20px 17px 31px 37px;	
 	text-decoration:none;
-
 }
 .hh{
 	text-align:center;
@@ -48,7 +47,6 @@ header{
 	
 }
 .hh ul{
-
     list-style: none;
 	display:flex;
 }
@@ -142,7 +140,7 @@ header{
 	}
 	.ll{
 		position:absolute;
-	  	top:13px;
+	  	top:11px;
 	  	left:10px;
 	}
 	.ll a{
@@ -153,9 +151,16 @@ header{
 	}
 	.hh{
 		top:16px;
-		left:268px;
+		left:367px;
 	}
-	
+	.hh li a{
+		margin: 0 30px;
+		text-shadow: 1.2px 1.2px 3.5px rgba(255,255,255,0.8), -0.3px -0.3px rgba(255,255,255,0.8);
+		padding:0 4px 3px 2px;	
+		border-radius:5px ;	
+		font-size:28px;
+	}
+			
 
 
 
