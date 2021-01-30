@@ -134,6 +134,9 @@ header{
 
 /* RWD */
 @media(max-width:768px){
+	body{
+		max-width:768px;
+	}
 	header{
 		height: 65px;
  
