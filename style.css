@@ -1,4 +1,5 @@
-
+@charset "utf-8";
+/* CSS Document */
 
 *{
     margin: 0px;
@@ -65,7 +66,6 @@ header{
 
 .zz{
     text-align: center;
-    margin-bottom: 15px;
 	position: relative;
 }
 .zz a{
@@ -134,56 +134,87 @@ header{
 
 /* RWD */
 @media(max-width:768px){
-	body{
-		max-width:768px;
-	}
+	
 	header{
-		height: 65px;
- 
+		height: 75px;
+ 		border-radius: 0 0 20px 35px;
 	}
 	.ll{
-		position:absolute;
-	  	top:11px;
-	  	left:10px;
+	  	top:20px;
+	  	left:9px;
 	}
 	.ll a{
 		padding: 0 4px 5.5px 5.5px;
-		font-size:20px;
+		font-size:25px;
 		border:1.7px solid rgba(135,100,70);
 		border-radius:10px 8.5px 15.5px 17.5px;	
 	}
 	.hh{
-		top:16px;
-		left:367px;
+		top:23px;
+		left:107px;
 	}
 	.hh li a{
-		margin: 0 30px;
+		margin: 0 10px;
 		text-shadow: 1.2px 1.2px 3.5px rgba(255,255,255,0.8), -0.3px -0.3px rgba(255,255,255,0.8);
 		padding:0 4px 3px 2px;	
 		border-radius:5px ;	
-		font-size:28px;
+		font-size:20px;
 	}
-			
+	
+	.zz a{
+		font-size: 30px;	
+	}
+	.zz img{
+		width: 100%;
+		height: 300px;
+		border-radius:20px;
+	}
+
+	.z1{
+		height:163px;
+	}
+	.z2{
+		height:70px;
+	}
+	.aa h3{
+		top: 310px;
+		left: 230px;
+
+	}
+	.aa p{
+		top: 410px;
+		left: 230px;
+	}
+	.aa img{
+		box-shadow: 0 0 20px rgba(10,10,35,0.4);
+	}		
+	.bb h3{
+		top: 310px;
+		left: 230px;
+	}
+	.bb p{
+		top: 410px;
+		left: 230px;
+	}
+	.bb img{
+		box-shadow: 0 0 20px rgba(10,10,35,0.4);
+	}
+	.cc h3{
+		top: 310px;
+		left: 230px;
+	}
+	.cc p{
+		top: 410px;
+		left: 230px;
+
+	}
+	.cc img{
+		box-shadow: 0 0 20px rgba(10,10,35,0.4);
+	}
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-}
 
 
