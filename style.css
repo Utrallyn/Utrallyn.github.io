@@ -116,3 +116,9 @@ html{
 	min-width:400px;
 	box-shadow: 0 0 10px rgba(70,10,95,0.4);
 }
+/*rwd*/
+@media(min-width:768px){
+	.container{
+		min-width:1980px;
+	}
+}
