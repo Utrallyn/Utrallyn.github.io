@@ -18,7 +18,8 @@ html{
 	border-radius: 0 0 20px 25px;
 	box-shadow: -11px 11px 17px rgba(10,40,75,0.3);
 	padding-top: 20px;
-
+	position:fixed;
+	fixed-top:0;
 }
 .row{
 	align-items:center;
@@ -80,6 +81,7 @@ html{
 }
 .pp{
 	min-height:400px;
+	color: rgba(50,50,85,1);
 }
 .pp h3{
 	margin:15px 0 20px 0;	
@@ -100,26 +102,14 @@ html{
 	height:0px;
 }
 
-.aa .pp{
-	color: rgba(50,50,85,1);
-}
-
 .aa img{
 	min-width:400px;
 	box-shadow: 0 0 10px rgba(10,10,35,0.4);
 }
 
-.bb .pp{	
-	color: rgba(80,150,85);
-}
-
 .bb img{
 	min-width:400px;
 	box-shadow: 0 0 10px rgba(30,90,30,0.4);
-}
-
-.cc .pp{
-	color: rgba(90,10,170);
 }
 
 .cc img{
