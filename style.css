@@ -26,7 +26,6 @@ body{
 }
 .ll{
 	font-family: 'Gorditas', cursive;
-
 }
 .ll a{
 	text-decoration:none;
@@ -52,12 +51,6 @@ body{
 }
 
 /* 通用設定 */
-.z1{
-	height:0px;
-}
-.z2{
-	height:0px;
-}
 .zz{
 	min-width: 100%;
 	background:rgba(100,70,40,0.2);
@@ -67,7 +60,6 @@ body{
 }
 .zz .col{
 	min-width: 300px;
-	text-align: center;
 	color: rgba(50,50,85,1);
 }
 .zz img{
@@ -77,14 +69,10 @@ body{
 }
 .zz h1{
 	margin: 10px;
+	text-align: center;
 }
-.zz a{
-	text-decoration: none;
-	color: rgba(50,50,85,1);
-	display: block;
-
-	border-radius: 14px;
-	padding: 20px 0;
+.zz p{
+	padding:0 10px;
 }
 
 /* 個別設定 */
@@ -97,9 +85,52 @@ body{
 .cc img{
 	box-shadow: 0 0 10px rgba(70,10,95,0.4);
 }
+
 /* RWD */
 @media(min-width:768px){
-	.hh{
-		max-width:1980px !important;
+	
+	.container{
+		max-width:1980px !important;	
 	}
+
+	/* 功能列 */
+	.hh{
+    	height: 75px;
+		border-radius: 0 0 15px 15px;
+		box-shadow: 0 6px 17px rgba(10,40,75,0.3);
+		padding-top: 7px;
+	}
+	.ll a{
+		font-size:25px;
+		border:3.5px solid rgba(135,100,70);
+		border-radius:12px 12px 17px 23px;	
+	}
+	.tt  a{	
+		font-size:21px;
+	}
+
+	/* 通用設定 */
+	.z1{
+		height:105px;
+	}
+	.zz{	
+		border-radius:0px;
+		box-shadow:0 0 0px rgba(100,70,40,0.6);
+		padding: 60px 40px;
+	}
+	.zz img{
+		max-width:800px;
+		border-radius:19px;
+	}
+	.zz h1{
+		margin: 20px;
+	}
+	.zz p{
+		padding:0 10px;
+	}
+
+
+
+
+
 }
